@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <header>
         <nav class="menu-nav-bar">
             <img class="icon-empresa" src="image/logomarca-02.png" alt="">
-            <ul class="menu">
+            <ul id="dropdownButton" class="menu">
                 <li class="item-menu">
-                    <a href="">A Empresa <i class='fas fa-caret-down' style='font-size:15px'></i></a>
+                    <button>A Empresa <i class='fas fa-caret-down' style='font-size:15px'></i></button>
                     <ul class="sub-menu">
                         <li class="item-menu">
                             <a href="">Nossos parceiros</a>
@@ -40,7 +40,7 @@
                     <a href="">Contatos</a>
                 </li>
             </ul>
-            <button class="hamburguer-button">
+            <button class="hamburguer-button" data-target="dropdown" onclick="MudarEstado('dropdownButton')">
                 <img src="image/icon/menu-hamburguer.svg" alt="">
             </button>
         </nav>

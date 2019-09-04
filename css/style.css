@@ -58,6 +58,7 @@ a {
     }
     .menu {
         display: none;
+        width: 100vw;
     }
 }
 
