@@ -3,63 +3,11 @@ body {
     padding: 0px;
 }
 
-a {
-    text-decoration: none;
-}
-
-.hamburguer-button {
-    display: none;
-    width: 70px;
-    height: 70px;
-}
-
-.menu,
-.sub-menu {
-    list-style: none;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-}
-
-.sub-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-}
-
-.item-menu:hover .sub-menu {
-    display: flex;
-}
-
-.menu-nav-bar {
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    background-color: #1d1d1b;
-}
-
-.icon-empresa {
-    height: 50px;
-    padding: 10px 20px;
-}
-
 
 /* Telefones em paisagem e abaixo */
 
 @media (max-width: 480px) {
     /* estilos aqui */
-    .hamburguer-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #1d1d1b;
-        border: none;
-    }
-    .menu {
-        display: none;
-        width: 100vw;
-    }
 }
 
 
