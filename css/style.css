@@ -104,12 +104,6 @@ h1 {
     background-size: 100% 100%;
 }
 
-#apresentacao-servicos>img {
-    position: absolute;
-    height: 100%;
-    z-index: -1;
-}
-
 #apresentacao-servicos>h1 {
     border-left: 4px solid #3AAA35;
     border-bottom: 2px solid rgba(167, 167, 167, 0.74);
@@ -128,13 +122,17 @@ h1 {
     width: 30vw;
     margin: 10px 10px;
     box-shadow: 1px 1px 10px #1d1d1b;
+    overflow: hidden;
 }
 
 .box-apresentacao-servicos img {
     width: 100%;
+    transition: transform 800ms;
 }
 
 .box-apresentacao-servicos h1 {
+    position: absolute;
+    z-index: 1;
     font-size: 150%;
     text-align: center;
     background-color: #1d1d1b;
@@ -146,7 +144,10 @@ h1 {
 
 .box-apresentacao-servicos:hover {
     box-shadow: 1px 1px 10px #3AAA35;
-    transition-duration: 100ms;
+}
+
+.box-apresentacao-servicos:hover img {
+    transform: scale(1.5) rotate(5deg);
 }
 
 .title {
