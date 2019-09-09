@@ -93,10 +93,21 @@ h1 {
 }
 
 #apresentacao-servicos {
+    box-sizing: border-box;
+    height: 100%;
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../image/background-gray.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#apresentacao-servicos>img {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
 }
 
 #apresentacao-servicos>h1 {
@@ -150,7 +161,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 25px 0px;
+    margin: 50px 0px 25px;
 }
 
 
