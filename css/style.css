@@ -62,6 +62,14 @@ h1 {
     font-family: 'Bebas Neue';
 }
 
+p {
+    font-family: 'Arimo';
+}
+
+section p {
+    text-indent: 1.5cm;
+}
+
 .flex {
     display: flex;
 }
@@ -116,6 +124,7 @@ h1 {
 .section-apresentacao-servicos {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -180,6 +189,40 @@ h1 {
     padding: 50px 0px;
 }
 
+#section-empresa {
+    background-image: url(../image/background-gray.png);
+    background-repeat: no-repeat;
+    padding: 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-empresa h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #3AAA35;
+    text-align: center;
+    width: 60%;
+}
+
+#section-empresa a {
+    color: #3AAA35;
+}
+
+#section-empresa a:hover {
+    text-decoration: underline;
+}
+
+#section-empresa section {
+    justify-content: center;
+}
+
+#section-empresa section img {
+    margin: 10px 20px 10px;
+    width: 50%;
+}
+
 
 /* Telefones em paisagem e abaixo */
 
@@ -187,6 +230,10 @@ h1 {
     /* estilos aqui */
     .box-apresentacao-servicos {
         width: 75%;
+    }
+    #section-empresa section {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -196,17 +243,24 @@ h1 {
     }
     .section-apresentacao-servicos {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
+        justify-content: space-evenly;
+    }
+    #section-empresa section {
+        flex-direction: row;
     }
 }
 
 
 /* Telefones em paisagem a tablet em retrato a paisagem e desktop */
 
-@media (max-width: 979px) {
-    /* estilos aqui */
+@media (min-width: 979px) {
+    #section-empresa section p {
+        font-size: 1.25rem;
+        width: 50%;
+    }
+    #section-empresa section img {
+        max-width: 40%;
+    }
 }
 
 
