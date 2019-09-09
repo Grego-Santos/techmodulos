@@ -87,9 +87,10 @@ h1 {
 
 .cor {
     background-color: #00d312;
-    width: 50px;
-    height: 50px;
-    margin: 1px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
 #apresentacao-servicos {
@@ -150,6 +151,10 @@ h1 {
     transform: scale(1.5) rotate(5deg);
 }
 
+.box-apresentacao-servicos:hover h1 {
+    color: white;
+}
+
 .title {
     border-left: 4px solid #3AAA35;
     border-bottom: 2px solid rgba(167, 167, 167, 0.74);
@@ -163,6 +168,16 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 50px 0px 25px;
+}
+
+#section-produtos {
+    /*display: flex;*/
+    display: none;
+    justify-content: space-evenly;
+    background-image: url(../image/background-black-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 0px;
 }
 
 
