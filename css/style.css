@@ -280,12 +280,12 @@ footer a:hover {
 }
 
 #p-desenvolvedor {
+    font-size: 0.75rem;
     padding: 10px;
     margin: 10px;
     color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to right top, #3aaa35, #54b02f, #6bb62a, #80bc24, #95c11f) 1;
+    border-bottom: 1px solid #3aaa35;
+    border-top: 1px solid #00d312;
 }
 
 
