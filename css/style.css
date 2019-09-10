@@ -189,8 +189,7 @@ section p {
 }
 
 #section-produtos {
-    /*display: flex;*/
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     background-image: url(../image/background-black-1.png);
     background-repeat: no-repeat;
