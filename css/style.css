@@ -240,11 +240,13 @@ footer a:hover {
 
 #section-empresa section {
     justify-content: center;
+    align-items: center;
 }
 
 #section-empresa section img {
     margin: 10px 20px 10px;
     width: 50%;
+    height: 100%;
 }
 
 #section-empresa p {
