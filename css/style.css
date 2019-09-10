@@ -64,10 +64,26 @@ h1 {
 
 p {
     font-family: 'Arimo';
+    margin: 0px;
 }
 
-section p {
-    text-indent: 1.5cm;
+footer {
+    padding: 20px;
+    background-color: #1d1d1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ccc;
+}
+
+footer a {
+    color: #ccc;
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: #3AAA35;
+    text-decoration: none;
 }
 
 .flex {
@@ -231,11 +247,53 @@ section p {
     width: 50%;
 }
 
+#section-empresa p {
+    text-indent: 1.5cm;
+}
+
+.item-contato {
+    display: flex;
+    margin: 10px;
+}
+
+.item-contato img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#section-contato {
+    display: flex;
+    width: 100%;
+}
+
+#section-contato h1 {
+    font-size: 2rem;
+    color: #3AAA35;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    flex-grow: unset;
+}
+
+#p-desenvolvedor {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right top, #3aaa35, #54b02f, #6bb62a, #80bc24, #95c11f) 1;
+}
+
 
 /* Telefones em paisagem e abaixo */
 
 @media (max-width: 480px) {
     /* estilos aqui */
+    #section-contato {
+        flex-direction: column;
+    }
     .box-apresentacao-servicos {
         width: 75%;
     }
@@ -255,6 +313,11 @@ section p {
     }
     #section-empresa section {
         flex-direction: row;
+    }
+    #section-contato {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
