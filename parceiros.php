@@ -25,7 +25,7 @@
                     <img src="image/logo-empresa/cat-13.png" alt="" />
                 </a>
                 <a class="box box-style-box" href="" target="_blank" rel="noopener noreferrer">
-                    <img src="image/logo-empresa/fiat-03.png" alt="" />
+                    <img src="image/logo-empresa/chevrolet-03.png" alt="" />
                 </a>
                 <a class="box box-style-box" href="" target="_blank" rel="noopener noreferrer">
                     <img src="image/logo-empresa/ford-09.png" alt="" />

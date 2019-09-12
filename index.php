@@ -43,7 +43,7 @@
                         <img src="image/logo-empresa/cat-13.png" height="100" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="image/logo-empresa/fiat-03.png" height="100" alt="" />
+                        <img src="image/logo-empresa/chevrolet-03.png" height="100" alt="" />
                     </div>
                     <div class="slide">
                         <img src="image/logo-empresa/ford-09.png" height="100" alt="" />
