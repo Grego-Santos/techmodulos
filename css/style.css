@@ -314,18 +314,45 @@ footer a:hover {
     width: 80%;
     margin: 50px 0px;
     text-align: center;
-    border: 2.5px solid #1d1d1b;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 0px #1d1d1b79;
     border-radius: 10px;
 }
 
 #section-parceiros p:hover {
-    background-color: #1d1d1b;
-    color: #95C11F;
+    background-color: #1d1d1b0c;
 }
 
 #section-parceiros>div {
     display: flex;
     justify-content: center;
+}
+
+.tm-flex-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.enfase-verde {
+    background-color: #3aaa35;
+    color: white;
+    padding: 0px 2px;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-style-box {
+    box-shadow: 0px 0px 50px #1d1d1b0c;
+}
+
+.box-style-box:hover {
+    background-color: white;
 }
 
 ::-webkit-scrollbar {
