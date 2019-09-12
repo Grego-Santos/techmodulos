@@ -371,10 +371,6 @@ footer a:hover {
     margin: 20px 0px;
 }
 
-#section-parceiros .content-center {
-    margin: 20px 0px;
-}
-
 .tm-flex-wrap {
     display: flex;
     justify-content: center;
@@ -423,10 +419,27 @@ footer a:hover {
 
 /* Telefones em paisagem a tablet em retrato */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     /* estilos aqui */
     .box-apresentacao-servicos {
         width: 40vw;
+    }
+    #section-parceiros-title {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+    #section-parceiros-title {
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .box-style-shadow {
+        width: 100%;
+    }
+    .box-style-shadow p {
+        font-size: 1.2rem;
+    }
+    #section-logomarcas>h1 {
+        font-size: 1.5rem;
     }
 }
 

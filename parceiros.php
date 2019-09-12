@@ -20,7 +20,7 @@
             </section>
             <section class="content-center">
                 <section class="box-style-shadow">
-                    <p>Para que possamos realizar com excelência o nosso serviço, precisamos trabalhar com as <span class="enfase-verde">melhores marcas</span> do mercado!</p>
+                    <p>Para que possamos realizar com excelência o nosso serviço, precisamos trabalhar com as melhores marcas do mercado!</p>
                 </section>
             </section>
         </section>
