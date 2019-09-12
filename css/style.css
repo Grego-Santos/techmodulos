@@ -309,24 +309,37 @@ footer a:hover {
     line-height: 5rem;
 }
 
+#section-parceiros h1 span:nth-child(0) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 #section-parceiros p {
     font-size: 1.5rem;
     width: 80%;
     margin: 50px 0px;
     text-align: center;
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 5px 5px 0px #1d1d1b79;
     border-radius: 10px;
 }
 
 #section-parceiros p:hover {
-    background-color: #1d1d1b0c;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #section-parceiros>div {
     display: flex;
     justify-content: center;
+}
+
+#section-parceiros img {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
 }
 
 .tm-flex-wrap {
@@ -336,9 +349,18 @@ footer a:hover {
 }
 
 .enfase-verde {
-    background-color: #3aaa35;
-    color: white;
+    background-image: linear-gradient(120deg, #3aaa35, #3aaa35);
+    background-position: 50% 100%;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    color: #1d1d1b;
     padding: 0px 2px;
+    transition: background-size 0.25s ease-in;
+}
+
+.enfase-verde:hover {
+    background-size: 100% 100%;
+    color: white;
 }
 
 .box {
