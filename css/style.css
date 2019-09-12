@@ -349,10 +349,11 @@ footer a:hover {
 
 .box-style-box {
     box-shadow: 0px 0px 50px #1d1d1b0c;
+    transition: transform 800ms;
 }
 
 .box-style-box:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 ::-webkit-scrollbar {
