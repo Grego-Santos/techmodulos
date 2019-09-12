@@ -341,6 +341,16 @@ footer a:hover {
 }
 
 
+/* Telefones em paisagem a tablet em retrato */
+
+@media (max-width: 767px) {
+    /* estilos aqui */
+    .box-apresentacao-servicos {
+        width: 40vw;
+    }
+}
+
+
 /* Telefones em paisagem e abaixo */
 
 @media (max-width: 480px) {
