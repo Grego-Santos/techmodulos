@@ -1,16 +1,16 @@
 /*
-    PALETA
-        verde:
-            RGB: 58 170 53
-            #: 3AAA35
+PALETA
+verde:
+RGB: 58 170 53
+#: 3AAA35
 
-        verde amarelo:
-            RGB: 149 193 31
-            #: 95C11F
+verde amarelo:
+RGB: 149 193 31
+#: 95C11F
 
-        preto claro:
-            RGB: 29 29 27
-            #: 1D1D1B
+preto claro:
+RGB: 29 29 27
+#: 1D1D1B
 */
 
 @font-face {
@@ -128,7 +128,6 @@ footer a:hover {
 
 #apresentacao-servicos {
     box-sizing: border-box;
-    height: 100%;
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
@@ -295,6 +294,40 @@ footer a:hover {
     object-position: center;
 }
 
+#section-parceiros {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+#section-parceiros h1 {
+    color: #3aaa35;
+    font-size: 4rem;
+    padding: 5%;
+    margin-left: 20%;
+    border-left: 5px solid #1d1d1b;
+    line-height: 5rem;
+}
+
+#section-parceiros p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 50px 0px;
+    text-align: center;
+    border: 2.5px solid #1d1d1b;
+    border-radius: 10px;
+}
+
+#section-parceiros p:hover {
+    background-color: #1d1d1b;
+    color: #95C11F;
+}
+
+#section-parceiros>div {
+    display: flex;
+    justify-content: center;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -358,9 +391,9 @@ footer a:hover {
 
 /*
 
- ~ SE COLOCAR ESSE BLOCO, TERI QUE REPETIR OS CÓDIGOS, VAMOS VER COMO ELES SE COMPORTAM DEIXANDO ATÉ 979
+~ SE COLOCAR ESSE BLOCO, TERI QUE REPETIR OS CÓDIGOS, VAMOS VER COMO ELES SE COMPORTAM DEIXANDO ATÉ 979
 
- Telefones em paisagem a tablet em retrato 
+Telefones em paisagem a tablet em retrato 
 
 @media (max-width: 767px) {
     /* estilos aqui 
