@@ -11,7 +11,9 @@
         <?php include_once 'menu.php'; ?>
     </header>
     <main>
-        <h1>Página em construção</h1>
+        <section class="content-liquid-center mg-50">
+            <h1>Página em construção</h1>
+        </section>
     </main>
     <footer>
         <?php include_once 'rodape.php';?>

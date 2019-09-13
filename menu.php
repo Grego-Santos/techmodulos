@@ -22,9 +22,9 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="produtos.php">Nossos produtos</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--<li class="nav-item active">
                         <a class="nav-link" href="duvidas_frequentes.php">Dúvidas frequêntes</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item active">
                         <a class="nav-link" href="contatos.php">Contatos</a>
                     </li>
