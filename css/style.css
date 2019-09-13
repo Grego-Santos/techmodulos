@@ -404,6 +404,59 @@ footer a:hover {
     background-color: #ffffff;
 }
 
+.content-liquid-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-liquid-center-reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mg-50 {
+    margin: 50px;
+}
+
+.section-funcionario {
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.section-funcionario section p {
+    text-align: center;
+}
+
+.section-funcionario .bar {
+    margin: 10px;
+    border-bottom: 1px solid #3aaa35;
+    height: 1px;
+    width: 50px;
+    display: none;
+}
+
+.section-funcionario>p {
+    margin: 0px 50px;
+}
+
+.section-funcionario img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -441,6 +494,9 @@ footer a:hover {
     #section-logomarcas>h1 {
         font-size: 1.5rem;
     }
+    .section-funcionario {
+        width: 100%;
+    }
 }
 
 
@@ -457,6 +513,19 @@ footer a:hover {
     #section-empresa section {
         flex-direction: column;
         align-items: center;
+    }
+    .section-funcionario .bar {
+        display: block;
+    }
+    .content-liquid-center {
+        flex-direction: column;
+    }
+    .content-liquid-center-reverse {
+        flex-direction: column-reverse;
+    }
+    .section-funcionario>p {
+        margin: 0px;
+        text-align: center;
     }
 }
 
@@ -488,6 +557,15 @@ footer a:hover {
     }
     #section-empresa section img {
         max-width: 40%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .title {
+        font-size: 2rem;
+    }
+    .section-funcionario p {
+        font-size: 1.4rem;
     }
 }
 
