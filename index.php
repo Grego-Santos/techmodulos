@@ -113,7 +113,7 @@
                 <p>
                     A Tech Módulos é uma empresa especializada em manutenção de equipamentos agrícolas, constructions, linha leve e pesada. Fazemos manutenção em módulos de injeção, transmissão, hidráulicos, tração, equipamentos de agricultura de precisão (GPS, antenas),
                     painéis e outros, visando um custo mais acessiveis para os nossos clientes. Saiba mais sobre nós
-                    <a href="">clicando aqui.</a>
+                    <a href="empresa.php">clicando aqui.</a>
                 </p>
             </section>
         </section>
