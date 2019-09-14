@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light navbar-fixed">
             <a href="index.php"><img class="logomarca-top" src="image/logomarca-02.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="image/icon/menu-hamburguer.svg" alt="">
@@ -26,7 +26,7 @@
                         <a class="nav-link" href="duvidas_frequentes.php">Dúvidas frequêntes</a>
                     </li>-->
                     <li class="nav-item active">
-                        <a class="nav-link" href="contatos.php">Contatos</a>
+                        <a class="nav-link" href="contatos.php">Fale conosco</a>
                     </li>
                 </ul>
             </div>
