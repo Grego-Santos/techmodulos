@@ -26,7 +26,7 @@
                         <a class="nav-link" href="duvidas_frequentes.php">Dúvidas frequêntes</a>
                     </li>-->
                     <li class="nav-item active">
-                        <a class="nav-link" href="contatos.php">Fale conosco</a>
+                        <a class="nav-link" href="fale_conosco.php">Fale conosco</a>
                     </li>
                 </ul>
             </div>

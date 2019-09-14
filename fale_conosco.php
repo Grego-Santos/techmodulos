@@ -3,7 +3,7 @@
 
 <head>
     <?php include_once 'head.php';?>
-    <title>Contatos</title>
+    <title>Fale conosco</title>
 </head>
 
 <body>
