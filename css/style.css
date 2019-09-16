@@ -313,16 +313,16 @@ footer a:hover {
 
 #section-parceiros-title {
     width: 100%;
-    color: #3aaa35;
+    color: #fff;
     padding-left: 20%;
     font-size: 3rem;
     line-height: 6.5rem;
 }
 
 #section-parceiros-title p {
-    background-image: linear-gradient(to right, #1d1d1bda, #1d1d1b00 90%);
     padding-left: 20px;
     letter-spacing: 0.5rem;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 #section-parceiros-title p:nth-child(2) {

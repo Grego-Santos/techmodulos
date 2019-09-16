@@ -12,7 +12,7 @@
     </header>
     <main>
         <section id="section-parceiros">
-            <img src="image/background-business.jpg" alt="">
+            <img src="image/background-business.png" alt="">
             <section id="section-parceiros-title">
                 <p>✔ PROCEDÊNCIA</p>
                 <p>✔ EFICIÊNCIA</p>
