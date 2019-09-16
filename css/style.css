@@ -457,6 +457,15 @@ footer a:hover {
     font-weight: bold;
 }
 
+#section-maps iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+#section-maps p {
+    margin: 20px 0px;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -566,6 +575,9 @@ footer a:hover {
     }
     .section-funcionario p {
         font-size: 1.4rem;
+    }
+    #section-maps iframe {
+        width: 70%;
     }
 }
 
