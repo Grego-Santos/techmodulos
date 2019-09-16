@@ -14,34 +14,10 @@ RGB: 29 29 27
 */
 
 @font-face {
-    font-family: 'Amaranth';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Amaranth Regular'), local('Amaranth-Regular'), url(https://fonts.gstatic.com/s/amaranth/v10/KtkuALODe433f0j1zMnFHdA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-    font-family: 'Archivo Black';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(https://fonts.gstatic.com/s/archivoblack/v9/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
     src: local('Arimo Regular'), local('Arimo-Regular'), url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10ZxCE.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-    font-family: 'Courgette';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Courgette Regular'), local('Courgette-Regular'), url(https://fonts.gstatic.com/s/courgette/v7/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
