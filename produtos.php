@@ -12,7 +12,63 @@
     </header>
     <main>
         <section class="content-liquid-center mg-50">
-            <h1>Página em construção</h1>
+            <h1>Produtos</h1>
+        </section>
+        <section class="content-wrap">
+        <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
+            <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
+            <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
+            <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
+            <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
+            <section class="card-produtos">
+                <a href=""><img src="image/logo.png" alt=""></a>
+                <section class="content-column-center">
+                    <h1>Nome do produto</h1>
+                    <p>Breve descrição</p>
+                    <p>R$ 99,90</p>
+                    <a class="btn-comprar" href="">COMPRAR</a>
+                </section>
+            </section>
         </section>
     </main>
     <footer>
