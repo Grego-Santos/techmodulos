@@ -16,7 +16,7 @@
                             <a class="dropdown-item" href="empresa.php">Nossa história</a>
                             <a class="dropdown-item" href="parceiros.php">Nossos parceiros</a>
                             <a class="dropdown-item" href="equipe.php">Nossa equipe</a>
-                            <a class="dropdown-item" href="servicos_anteriores.php">Serviços anteriores</a>
+                            <a class="dropdown-item" href="servicos_anteriores.php">Serviços realizados</a>
                         </div>
                     </li>
                     <li class="nav-item active">
