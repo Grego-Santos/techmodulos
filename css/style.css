@@ -172,6 +172,16 @@ footer a:hover {
     width: 90%;
 }
 
+.subtitle-servicos-construction {
+    font-size: 1.75rem;
+}
+
+.span-tech-modulos {
+    background-color: #3aaa35;
+    padding: 0px 2px;
+    color: #fff;
+}
+
 #slider-parceiros {
     display: flex;
     flex-direction: column;
@@ -398,8 +408,24 @@ footer a:hover {
     align-items: center;
 }
 
+.content-row {
+    display: flex;
+}
+
+.content-row-fluid {
+    display: flex;
+}
+
+.evenly-fluid {
+    justify-content: space-between;
+}
+
 .mg-50 {
     margin: 50px;
+}
+
+.pd-50 {
+    padding: 50px;
 }
 
 .section-funcionario {
@@ -440,6 +466,36 @@ footer a:hover {
 
 #section-maps p {
     margin: 20px 0px;
+}
+
+#section-servicos-construction {
+    background-color: #F2C849;
+    box-sizing: border-box;
+    border: 10px solid transparent;
+    border-image: url(../image/box-construction.jpg) 50 round;
+}
+
+#section-servicos-construction h2 {
+    margin: 0px 50px 50px 50px;
+}
+
+.card-construction {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card-construction section {
+    margin-left: 40px;
+}
+
+.card-construction h1 {
+    font-size: 2rem;
+}
+
+.card-construction img {
+    width: 50vw;
+    border: 10px solid transparent;
+    border-image: url(../image/box-construction.jpg) 50 round;
 }
 
 ::-webkit-scrollbar {
@@ -508,9 +564,25 @@ footer a:hover {
     .content-liquid-center-reverse {
         flex-direction: column-reverse;
     }
+    .content-row-fluid {
+        flex-direction: column;
+    }
     .section-funcionario>p {
         margin: 0px;
         text-align: center;
+    }
+    .card-construction section {
+        margin: 10px;
+    }
+    .card-construction img {
+        width: 85vw;
+    }
+    #section-servicos-construction {
+        padding: 20px 0px;
+        text-align: center;
+    }
+    #section-servicos-construction h2 {
+        font-size: 1.5rem;
     }
 }
 
