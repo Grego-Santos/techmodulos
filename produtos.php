@@ -11,7 +11,7 @@
         <?php include_once 'menu.php'; ?>
     </header>
     <main>
-        <section class="content-liquid-center mg-50">
+        <section class="content-liquid-central mg-50">
             <h1>Produtos</h1>
         </section>
         <section class="content-wrap">

@@ -14,7 +14,7 @@
         <img src="image/" alt="">
         <h1 class="title">Nossa equipe</h1>
 
-        <section class="section-funcionario content-liquid-center">
+        <section class="section-funcionario content-liquid-central">
             <section class="content-column-center">
                 <img src="image/leandro.jpg" alt="">
                 <p class="negrito">Leandro Reino Lopes</p>
@@ -24,7 +24,7 @@
             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
         </section>
 
-        <section class="section-funcionario content-liquid-center-reverse">
+        <section class="section-funcionario content-liquid-central-reverse">
             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
             <section class="content-column-center">
                 <img src="image/foto.png" alt="">

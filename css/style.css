@@ -104,7 +104,7 @@ footer a:hover {
 
 #apresentacao-servicos {
     box-sizing: border-box;
-    padding: 50px 0px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,12 +351,6 @@ footer a:hover {
     justify-content: center;
 }
 
-.content-center {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 #section-parceiros .content-center {
     margin: 20px 0px;
 }
@@ -394,7 +388,17 @@ footer a:hover {
     background-color: #ffffff;
 }
 
-.content-liquid-center {
+.content {
+    display: flex;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-liquid-central {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,10 +416,6 @@ footer a:hover {
     align-items: center;
 }
 
-.content-row {
-    display: flex;
-}
-
 .content-row-fluid {
     display: flex;
 }
@@ -429,6 +429,12 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.content-column-style-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .evenly-fluid {

@@ -85,10 +85,10 @@
                 </div>
             </div>
         </section>
-        <section id="apresentacao-servicos">
+        <section class="content-column-style-1">
             <h1 class="title">NOSSOS SERVIÇOS</h1>
 
-            <section class="section-apresentacao-servicos">
+            <section class="content-wrap">
                 <section class="box-apresentacao-servicos">
                     <h1>MÁQUINAS AGRÍCOLAS</h1>
                     <img src="image/maquina-agricola.jpg" alt="">
