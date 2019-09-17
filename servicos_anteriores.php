@@ -20,10 +20,9 @@
 
             <!-- CADA ITEM DO SERVIÇO -->
             <section class="card-construction content-liquid-center">
-                <img src="image/trator.png" alt="">
+                <img src="image/servicos_anteriores/modulo-peneira-auto-nivelante-tc5090.jpg" alt="">
                 <section>
-                    <h1>Conserto da placa controladora de injeção</h1>
-                    <p>A 'máquina' do 'Sr. Zé' 'parou de funcionar em plena colheita do soja...'</p>
+                    <h1>Módulo de peneira auto nivelante tc5090</h1>
                 </section>
             </section>
             <!-- // CADA ITEM DO SERVIÇO -->
@@ -31,10 +30,9 @@
             <!-- CADA ITEM DO SERVIÇO -->
             <section class="card-construction content-liquid-center-reverse evenly-fluid ">
                 <section>
-                    <h1>Título</h1>
-                    <p>Textinho</p>
+                    <h1>Reparo apost case 2388</h1>
                 </section>
-                <img src="image/trator.png" alt="">
+                <img src="image/servicos_anteriores/reparo_apost_case_2388.jpg" alt="">
             </section>
             <!-- // CADA ITEM DO SERVIÇO -->
         </section>

@@ -21,17 +21,7 @@
                 <p>Gerente</p>
                 <span class="bar"></span>
             </section>
-            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
-        </section>
-
-        <section class="section-funcionario content-liquid-center-reverse">
-            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
-            <section class="content-column-center">
-                <img src="image/foto.png" alt="">
-                <p class="negrito">Nome</p>
-                <p>Cargo</p>
-                <span class="bar"></span>
-            </section>
+            <p>Técnico responsável da empresa.</p>
         </section>
     </main>
     <footer>

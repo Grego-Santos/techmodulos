@@ -107,9 +107,6 @@
                 </section>
             </section>
         </section>
-        <section id="section-produtos">
-            <div class="cor"></div>
-        </section>
         <section id="section-empresa">
             <h1 class="">EMPRESA</h1>
             <section class="flex">
