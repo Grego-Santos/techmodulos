@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <?php include_once 'head.php';?>
+    <?php include_once 'head.php'; ?>
     <title>Fale conosco</title>
 </head>
 
@@ -11,6 +11,37 @@
         <?php include_once 'menu.php'; ?>
     </header>
     <main>
+        <section class="content-column mg-50 pd-50 color-black">
+            <h1 class="title">Contatos</h1>
+            <section class="item-contato">
+                <img src="image/whatsapp.png" alt="">
+                <p>
+                    <a class="color-black" target="_blank" href="https://wa.me/+5544997090277">(44) 9 9709-0277</a>
+                </p>
+            </section>
+            <section class="item-contato">
+                <img src="image/telefone.png" alt="">
+                <p>(44) 3280-1110</p>
+            </section>
+            <section class="item-contato">
+                <img src="image/facebook.png" alt="">
+                <p>
+                    <a class="color-black"  target="_blank" href="https://www.facebook.com/techmodulossolucoestecnologicas/">/techmodulossolucoestecnologicas</a>
+                </p>
+            </section>
+            <section class="item-contato">
+                <img src="image/email.png" alt="">
+                <p>
+                    <a class="color-black"  target="_blank" href="mailto:leandro@techmodulos.com.br">leandro@techmodulos.com.br</a>
+                </p>
+            </section>
+            <section class="item-contato">
+                <img src="image/email.png" alt="">
+                <p>
+                    <a class="color-black"  target="_blank" href="mailto:financeiro@techmodulos.com.br">financeiro@techmodulos.com.br</a>
+                </p>
+            </section>
+        </section>
         <section id="section-maps" class="content-column-center mg-50">
             <h1 class="title">Endereço</h1>
             <p>Avenida Tupãssi Nº 1295 - Jardim Paraná</p>
@@ -18,7 +49,7 @@
         </section>
     </main>
     <footer>
-        <?php include_once 'rodape.php';?>
+        <?php include_once 'rodape.php'; ?>
     </footer>
 </body>
 
