@@ -1,7 +1,7 @@
 <html lang="pt-br">
 
 <head>
-    <?php include_once'head.php';?>
+    <?php include_once 'head.php'; ?>
     <title>Tech Módulos</title>
 </head>
 
@@ -12,6 +12,7 @@
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -19,6 +20,9 @@
                 </div>
                 <div class="carousel-item">
                     <img src="image/trator.png" class="d-block w-100 image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/construction.jpg" class="d-block w-100 image" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -91,15 +95,15 @@
                 </section>
                 <section class="box-apresentacao-servicos">
                     <h1>AGRICULTURA DE PRECISÃO</h1>
-                    <img src="image/maquina-agricola.jpg" alt="">
+                    <img src="image/agricultura-precisao-1.png" alt="">
                 </section>
                 <section class="box-apresentacao-servicos">
                     <h1>MÁQUINAS PESADAS</h1>
-                    <img src="image/maquina-agricola.jpg" alt="">
+                    <img src="image/construction.jpg" alt="">
                 </section>
                 <section class="box-apresentacao-servicos">
                     <h1>CAMINHÕES</h1>
-                    <img src="image/maquina-agricola.jpg" alt="">
+                    <img src="image/caminhao.jpg" alt="">
                 </section>
             </section>
         </section>
@@ -119,7 +123,7 @@
         </section>
     </main>
     <footer>
-        <?php include_once 'rodape.php';?>
+        <?php include_once 'rodape.php'; ?>
     </footer>
 </body>
 
