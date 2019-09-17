@@ -311,6 +311,8 @@ footer a:hover {
     padding-left: 20px;
     letter-spacing: 0.5rem;
     font-family: 'Hammersmith One', sans-serif;
+    word-wrap: unset;
+    margin: 0px;
 }
 
 #section-parceiros-title p:nth-child(2) {
@@ -639,6 +641,12 @@ footer a:hover {
     }
     .card-produtos img {
         width: 50vw;
+    }
+    #section-parceiros-title p {
+        padding-left: 0px;
+    }
+    #section-parceiros-title p:nth-child(3) {
+        margin-left: 70px;
     }
 }
 
